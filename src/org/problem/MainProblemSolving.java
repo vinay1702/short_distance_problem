@@ -7,12 +7,12 @@ import org.codehaus.jackson.map.ObjectMapper;
 import java.io.*;
 
 public class MainProblemSolving {
-	
+		// Change Path According to your workspace
 	 	private static String FILE_PATH = "C:/Users/Istar/Workspace_shortestDistance/short_distance_problem/src/customers.json";
 	    private static final double MY_LATITUDE = Math.toRadians(12.935076);
 	    private static final double MY_LONGITUDE = Math.toRadians(77.614277);
-	    private static final double R = 6371000;
-	    private static final double DISTANCE_COVER_IN_METERS = 100;
+	    private static final double R = 6371000; //In Meters
+	    private static final double DISTANCE_COVER_IN_METERS = 100000.00; //In Meters
 
 	    public static void main(String[] args) {
 
